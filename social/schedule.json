@@ -8,5 +8,20 @@
     "posted": true,
     "media_id": "18018484499682147",
     "posted_at": "2026-05-23T18:41:05Z"
+  },
+  {
+    "id": "C1_test",
+    "type": "carousel",
+    "epoch": 1779563316,
+    "images": [
+      "social/media/c1/slide_1.jpg",
+      "social/media/c1/slide_2.jpg",
+      "social/media/c1/slide_3.jpg",
+      "social/media/c1/slide_4.jpg",
+      "social/media/c1/slide_5.jpg",
+      "social/media/c1/slide_6.jpg"
+    ],
+    "caption": "איך PUSH AI בונה לך תוכנית אימון אישית ב-30 שניות 🔥 (שמרו לעצמכם 👇)\n\nבמקום להעתיק תוכניות אקראיות מהאינטרנט — PUSH AI שואל אותך כמה שאלות (מטרה, ציוד, כמה זמן יש לך) ובונה לך תוכנית מלאה שמתקדמת איתך כל שבוע. אימון + תזונה + מאמן שזמין לך תמיד.\n\n7 ימים חינם · קישור בביו 👆\n\n#כושר #אימונים #חדרכושר #מאמןאישי #כושרישראל #PUSHAI #תוכניתאימון",
+    "posted": false
   }
 ]
