@@ -1,7 +1,7 @@
 name: IG scheduler
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 min (UTC). A post fires within ~10 min of its epoch.
+    - cron: "*/5 * * * *"   # every 10 min (UTC). A post fires within ~10 min of its epoch.
   workflow_dispatch:          # manual trigger for testing
 permissions:
   contents: write
