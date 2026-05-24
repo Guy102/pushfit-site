@@ -11,7 +11,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 20        # a run may sleep up to ~10 min for exact timing; cap runaway
+    timeout-minutes: 100       # a run may sleep up to ~90 min (WINDOW) for exact timing
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

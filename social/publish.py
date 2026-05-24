@@ -34,7 +34,10 @@ REPO_RAW="https://raw.githubusercontent.com/Guy102/pushfit-site/main/"
 TOKEN=os.environ.get("FB_TOKEN","")
 HERE=os.path.dirname(os.path.abspath(__file__))
 SCHED=os.path.join(HERE,"schedule.json")
-WINDOW=600   # seconds of look-ahead (~2× the 5-min tick) for exact-time waiting
+WINDOW=5400  # look-ahead seconds (90 min): GitHub throttles the 5-min cron to
+             # ~hourly on public repos, so each (sparse) tick waits out the exact
+             # epoch of every post in the next 90 min — exact timing despite a
+             # coarse trigger. Posts are few, so only ~1 job/post sleeps long.
 
 def api(method, path, body=None):
     url=f"{BASE}/{path}"; params={"access_token":TOKEN}
@@ -48,23 +51,19 @@ def api(method, path, body=None):
 
 def raw(p): return p if p.startswith("http") else REPO_RAW+p.lstrip("/")
 
-def wait_ready(cid, tries=20, every=4):
-    for _ in range(tries):
-        d=api("GET",f"{cid}?fields=status_code")
-        if d.get("status_code")=="FINISHED": return
-        if d.get("status_code")=="ERROR": raise RuntimeError("container error "+cid)
-        time.sleep(every)
-    raise RuntimeError("timeout "+cid)
-
+# NOTE: do NOT poll the container before publishing. A GET on a fresh IG media
+# container returns code 100 / subcode 33 (and the original working code never
+# polled). media_publish itself waits for the small image to finish. A short
+# fixed pause is cheap insurance for carousels without the broken status read.
 def publish_post(item):
     c=api("POST",f"{IG_USER_ID}/media",{"image_url":raw(item['image']),"caption":item.get('caption','')})
-    wait_ready(c['id'])
+    time.sleep(3)
     out=api("POST",f"{IG_USER_ID}/media_publish",{"creation_id":c['id']})
     return out.get("id")
 
 def publish_story(item):
     c=api("POST",f"{IG_USER_ID}/media",{"image_url":raw(item['image']),"media_type":"STORIES"})
-    wait_ready(c['id'])
+    time.sleep(3)
     out=api("POST",f"{IG_USER_ID}/media_publish",{"creation_id":c['id']})
     return out.get("id")
 
@@ -72,10 +71,10 @@ def publish_carousel(item):
     kids=[]
     for u in item["images"]:
         ch=api("POST",f"{IG_USER_ID}/media",{"image_url":raw(u),"is_carousel_item":"true"})
-        wait_ready(ch['id'])
         kids.append(ch["id"])
+    time.sleep(5)
     parent=api("POST",f"{IG_USER_ID}/media",{"media_type":"CAROUSEL","children":",".join(kids),"caption":item.get('caption','')})
-    wait_ready(parent['id'])
+    time.sleep(5)
     out=api("POST",f"{IG_USER_ID}/media_publish",{"creation_id":parent['id']})
     return out.get("id")
 
