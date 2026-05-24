@@ -88,8 +88,9 @@ def main():
     # Process in chronological order so exact-time waits don't block earlier posts.
     pending=sorted((i for i in sched if not i.get("posted")),
                    key=lambda i:int(i.get("epoch",0)))
-    did_anything=False
-    failed_overdue=False   # an already-due post we couldn't publish → alert
+    attempted=False
+    published=0
+    failed=False                       # any post we tried to publish and couldn't → alert
     for item in pending:
         e=int(item.get("epoch",0))
         now=int(time.time())
@@ -98,19 +99,20 @@ def main():
         if e>now:                      # imminent → wait for the exact second
             print(f"⏳ waiting {e-now}s for {item.get('id')} (exact {time.strftime('%H:%M:%S',time.gmtime(e))} UTC)")
             time.sleep(e-now)
-        was_overdue = e<=start
+        attempted=True
         try:
             mid=PUBLISHERS[item.get("type","post")](item)
             item["posted"]=True; item["media_id"]=mid
             item["posted_at"]=time.strftime("%Y-%m-%dT%H:%M:%SZ",time.gmtime())
             save(sched)                # persist after each post (survives job kill)
-            did_anything=True
+            published+=1
             print(f"✅ published {item.get('id')} ({item.get('type')}) → {mid}")
         except Exception as e2:
             print(f"❌ {item.get('id')}: {e2}")
-            if was_overdue: failed_overdue=True
-    if not did_anything: print("nothing due")
-    if failed_overdue:
-        raise SystemExit("one or more OVERDUE posts failed to publish — see errors above")
+            failed=True
+    if not attempted: print("nothing due")
+    else: print(f"done — {published} published, {'some FAILED' if failed else 'no failures'}")
+    if failed:
+        raise SystemExit("one or more due posts failed to publish — see errors above")
 
 if __name__=="__main__": main()
