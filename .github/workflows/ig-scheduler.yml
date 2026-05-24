@@ -1,16 +1,17 @@
 name: IG scheduler
 on:
   schedule:
-    - cron: "*/5 * * * *"   # every 10 min (UTC). A post fires within ~10 min of its epoch.
+    - cron: "*/5 * * * *"   # every 5 min (UTC). publish.py sleeps to each post's exact epoch.
   workflow_dispatch:          # manual trigger for testing
 permissions:
   contents: write
 concurrency:
   group: ig-scheduler
-  cancel-in-progress: false
+  cancel-in-progress: false   # never cancel a run that may be mid-wait/mid-publish
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 20        # a run may sleep up to ~10 min for exact timing; cap runaway
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,4 +27,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add social/schedule.json
           git diff --staged --quiet || git commit -m "scheduler: mark posted [skip ci]"
+          git pull --rebase --autostash origin main || true
           git push
