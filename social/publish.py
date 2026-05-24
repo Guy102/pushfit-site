@@ -39,7 +39,7 @@ WINDOW=600   # seconds of look-ahead (~2× the 5-min tick) for exact-time waitin
 def api(method, path, body=None):
     url=f"{BASE}/{path}"; params={"access_token":TOKEN}
     data=urllib.parse.urlencode({**params,**(body or {})}).encode() if method=="POST" else None
-    if method=="GET": url+="?"+urllib.parse.urlencode(params)
+    if method=="GET": url+=("&" if "?" in path else "?")+urllib.parse.urlencode(params)
     req=urllib.request.Request(url,data=data,method=method)
     try:
         with urllib.request.urlopen(req) as r: return json.loads(r.read().decode() or "{}")
