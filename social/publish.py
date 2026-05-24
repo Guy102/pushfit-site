@@ -41,7 +41,10 @@ def api(method, path, body=None):
     data=urllib.parse.urlencode({**params,**(body or {})}).encode() if method=="POST" else None
     if method=="GET": url+="?"+urllib.parse.urlencode(params)
     req=urllib.request.Request(url,data=data,method=method)
-    with urllib.request.urlopen(req) as r: return json.loads(r.read().decode() or "{}")
+    try:
+        with urllib.request.urlopen(req) as r: return json.loads(r.read().decode() or "{}")
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"{e.code} {path} → {e.read().decode()[:300]}")
 
 def raw(p): return p if p.startswith("http") else REPO_RAW+p.lstrip("/")
 
