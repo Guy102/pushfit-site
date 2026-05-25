@@ -94,21 +94,25 @@
     "type": "carousel",
     "epoch": 1779728400,
     "caption": "שינוי אמיתי קורה בשלבים — ככה זה מרגיש עם PUSH AI. 🔥\n\nשבוע 1: מתחיל להרגיש את ההבדל באנרגיה.\nשבוע 2: מתחיל לראות שינוי, והאימון נעשה טבעי.\n\nלא קסם בן לילה — מערכת שמתקדמת איתך. השבוע הראשון שלך מתחיל היום. 👈\n\n7 ימים חינם · קישור בביו",
-    "posted": false,
+    "posted": true,
     "images": [
       "social/media/dc3/slide_1.jpg",
       "social/media/dc3/slide_2.jpg",
       "social/media/dc3/slide_3.jpg",
       "social/media/dc3/slide_4.jpg"
-    ]
+    ],
+    "media_id": "18096013081919150",
+    "posted_at": "2026-05-25T17:00:31Z"
   },
   {
     "id": "S3",
     "type": "story",
     "epoch": 1779724800,
     "caption": "ראית איך PUSH AI בונה לך תוכנית? 👆\n\nכל הסיפור בקרוסלה שהעלינו — מהשאלות הראשונות ועד התוכנית המלאה, ב-30 שניות.\n\n7 ימים חינם · קישור בביו\n\n(הוסף: link sticker · \"ראה קרוסלה\" sticker שמפנה לפוסט C1)",
-    "posted": false,
-    "image": "social/media/s3/S3.jpg"
+    "posted": true,
+    "image": "social/media/s3/S3.jpg",
+    "media_id": "17878381626456562",
+    "posted_at": "2026-05-25T16:22:51Z"
   },
   {
     "id": "DP5",
