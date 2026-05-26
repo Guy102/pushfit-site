@@ -56,8 +56,10 @@
     "type": "post",
     "epoch": 1779782400,
     "caption": "התוכנית השבועית שלך, מוכנה. 🔥\n\nPUSH AI בונה אותה סביב הימים שיש לך, הציוד שברשותך והמטרה שלך. כל אימון מתוכנן — אתה רק לוחץ \"התחל\".\n\nזו לא תבנית מהאינטרנט. זו התוכנית שלך.\n\n7 ימים חינם · קישור בביו",
-    "posted": false,
-    "image": "social/media/dp7/DP7.jpg"
+    "posted": true,
+    "image": "social/media/dp7/DP7.jpg",
+    "media_id": "18083970680426891",
+    "posted_at": "2026-05-26T09:35:33Z"
   },
   {
     "id": "S2",
@@ -129,13 +131,15 @@
     "type": "carousel",
     "epoch": 1779791400,
     "caption": "מיתוסים על ציוד שעוצרים אותך — בוא נסדר את זה. 🔥\n\nמיתוס: צריך חדר כושר כדי להתאמן. האמת: PUSH AI בונה אימון גם עם משקל גוף בלבד.\nמיתוס: בלי הרבה ציוד אי אפשר להתקדם. האמת: הגיוון וההתקדמות חשובים יותר מהציוד.\n\nספר ל-PUSH AI מה יש לך, והוא יבנה סביב זה. 👈\n\n7 ימים חינם · קישור בביו",
-    "posted": false,
+    "posted": true,
     "images": [
       "social/media/dc4/slide_1.jpg",
       "social/media/dc4/slide_2.jpg",
       "social/media/dc4/slide_3.jpg",
       "social/media/dc4/slide_4.jpg"
-    ]
+    ],
+    "media_id": "18061554056521075",
+    "posted_at": "2026-05-26T10:30:40Z"
   },
   {
     "id": "DP8",
