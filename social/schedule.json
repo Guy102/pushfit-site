@@ -42,14 +42,16 @@
     "type": "carousel",
     "epoch": 1779886800,
     "caption": "3 טעויות שכולנו עושים כשמתאמנים בלי תוכנית. 🔥\n\n1. אותו אימון כל פעם — הגוף מתרגל וההתקדמות נעצרת.\n2. מתחילים חזק מדי — שריפה מהירה, ואז מפסיקים.\n3. מזניחים תזונה — אימון טוב בלי תזונה מתאימה מבזבז את המאמץ.\n\nPUSH AI פותר את שלושתן בבת אחת. החלק שמאלה 👈\n\n7 ימים חינם · קישור בביו",
-    "posted": false,
+    "posted": true,
     "images": [
       "social/media/dc2/slide_1.jpg",
       "social/media/dc2/slide_2.jpg",
       "social/media/dc2/slide_3.jpg",
       "social/media/dc2/slide_4.jpg",
       "social/media/dc2/slide_5.jpg"
-    ]
+    ],
+    "media_id": "18104711915068002",
+    "posted_at": "2026-05-27T14:06:16Z"
   },
   {
     "id": "DP7",
