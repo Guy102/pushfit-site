@@ -188,7 +188,7 @@
     "type": "carousel",
     "epoch": 1779901200,
     "caption": "תוכנית הסופ״ש שלך כבר מוכנה 👇 (גלול)\n\nסופ״ש מגיע ואתה שוב מאלתר? לא צריך. PUSH AI בונה לך אימון לסופ״ש לפי הזמן והציוד שיש לך — בבית, בפארק או בחדר כושר.\n\nיש לך 20 דקות? מצוין. שעה שלמה? גם. PUSH AI מתאים את האימון בדיוק לסופ״ש שלך, ומתקדם איתך כל שבוע.\n\nבלי תירוצים, בלי ניחושים. רק ללחוץ \"התחל\".\n\n7 ימים חינם · קישור בביו 🔥",
-    "posted": false,
+    "posted": true,
     "images": [
       "social/media/c3/slide_1.jpg",
       "social/media/c3/slide_2.jpg",
@@ -196,15 +196,19 @@
       "social/media/c3/slide_4.jpg",
       "social/media/c3/slide_5.jpg",
       "social/media/c3/slide_6.jpg"
-    ]
+    ],
+    "media_id": "18529974781078617",
+    "posted_at": "2026-05-27T17:34:30Z"
   },
   {
     "id": "S5",
     "type": "story",
     "epoch": 1779897600,
     "caption": "סופ״ש = הזמן להתחיל. 🔥\n\nאין אימונים, אין פגישות, אין תירוצים. PUSH AI כבר בנה לך את התוכנית — כל מה שנשאר זה ללחוץ \"התחל\".\n\n7 ימים חינם · קישור בביו\n\n(הוסף: link sticker)",
-    "posted": false,
-    "image": "social/media/s5/S5.jpg"
+    "posted": true,
+    "image": "social/media/s5/S5.jpg",
+    "media_id": "18080907269429200",
+    "posted_at": "2026-05-27T17:33:36Z"
   },
   {
     "id": "NP1",
