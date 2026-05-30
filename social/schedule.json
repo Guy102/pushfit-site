@@ -311,19 +311,217 @@
     "posted_at": "2026-05-30T10:30:12Z"
   },
   {
-    "id": "DP6",
-    "type": "post",
-    "epoch": 1780160400,
-    "caption": "20 דקות ביום, ו-PUSH AI עושה את השאר. 🔥\n\nלא צריך חדר כושר יקר ולא שעתיים פנויות. אימון מותאם אישית שאפשר לעשות בסלון, עם מה שיש לך בבית.\n\nעקביות מנצחת מושלמות. כל יום קטן מצטבר.\n\n7 ימים חינם · קישור בביו",
+    "id": "m1_5mistakes",
+    "type": "carousel",
+    "epoch": 1780326000,
+    "caption": "5 טעויות שמבזבזות לך את האימונים 🔥\n\nרובנו עושים לפחות אחת מהן בלי לשים לב:\n1. מתאמנים בלי תוכנית, כל אימון ניחוש מחדש\n2. אותם תרגילים כל שבוע, הגוף מתרגל ומפסיק להשתנות\n3. מזניחים את התזונה ונשארים עם חצי עבודה\n4. ממשיכים באותה תוכנית כשהחיים כבר זזו\n\nהפתרון פשוט: תוכנית אחת חכמה שמתעדכנת איתך.\nPUSH AI בונה לך תוכנית אימון ותזונה מותאמת אישית, ומעדכנת אותה כל שבוע לפי מה שעשית ומה שהשתנה אצלך.\n\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
     "posted": false,
-    "image": "social/media/dp6/DP6.jpg"
+    "images": [
+      "social/media/m1_5mistakes/slide_1.jpg",
+      "social/media/m1_5mistakes/slide_2.jpg",
+      "social/media/m1_5mistakes/slide_3.jpg",
+      "social/media/m1_5mistakes/slide_4.jpg",
+      "social/media/m1_5mistakes/slide_5.jpg",
+      "social/media/m1_5mistakes/slide_6.jpg",
+      "social/media/m1_5mistakes/slide_7.jpg"
+    ]
   },
   {
-    "id": "S7",
-    "type": "story",
-    "epoch": 1780156800,
-    "caption": "שבוע מאז ההשקה. 🔥\n\nתודה לכל מי שהצטרף, התאמן, ושיתף. זו רק ההתחלה — PUSH AI ימשיך להשתפר ולבנות לכם תוכניות טובות יותר כל שבוע.\n\nמי שעוד לא ניסה — עכשיו הזמן.\n\n7 ימים חינם · קישור בביו\n\n(הוסף: link sticker)",
+    "id": "m1_stop",
+    "type": "post",
+    "epoch": 1780412400,
+    "caption": "תפסיק לחפש תוכנית מושלמת ברשת 🔥\n\nכל סרטון אומר משהו אחר, וברגע שאתה מתחיל אתה כבר לא בטוח אם זה מתאים לך בכלל.\nבמקום עוד שעה של חיפוש, ענה על כמה שאלות קצרות ו-PUSH AI בונה לך תוכנית אימון ותזונה מותאמת אישית, ומעדכן אותה כל שבוע לפי ההתקדמות שלך.\n\nבלי לנחש, בלי להעתיק תוכנית של מישהו אחר. רק מסלול שמתאים בדיוק לך.\n\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
     "posted": false,
-    "image": "social/media/s7/S7.jpg"
+    "image": "social/media/m1_stop/m1_stop.jpg"
+  },
+  {
+    "id": "m1_countdown",
+    "type": "story",
+    "epoch": 1780498800,
+    "caption": "שבוע חדש מתחיל, והתוכנית שלך כבר מחכה 🔥\nPUSH AI בנה לך תוכנית אימון ותזונה מותאמת אישית.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "image": "social/media/m1_countdown/m1_countdown.jpg"
+  },
+  {
+    "id": "m2_howpush",
+    "type": "carousel",
+    "epoch": 1780585200,
+    "caption": "ככה PUSH AI בונה לך תוכנית ב-30 שניות 🔥\n\n1. אתה עונה על כמה שאלות קצרות: מטרה, כמה ימים, איזה ציוד יש לך ומה הרמה\n2. PUSH AI בונה לך תוכנית אימון ותזונה מלאה ומותאמת אישית\n3. הכל מכויל בדיוק אליך, לא תבנית כללית\n4. וכל שבוע התוכנית מתעדכנת מחדש לפי ההתקדמות שלך\n\nתוכנית שלמה, בלי כל המאמץ של לבנות אותה לבד.\n\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "images": [
+      "social/media/m2_howpush/slide_1.jpg",
+      "social/media/m2_howpush/slide_2.jpg",
+      "social/media/m2_howpush/slide_3.jpg",
+      "social/media/m2_howpush/slide_4.jpg",
+      "social/media/m2_howpush/slide_5.jpg",
+      "social/media/m2_howpush/slide_6.jpg"
+    ]
+  },
+  {
+    "id": "m2_notime",
+    "type": "post",
+    "epoch": 1780758000,
+    "caption": "אין לך שעה? יש לך 20 דקות 🔥\n\nהטעות הכי נפוצה היא לחשוב שאם אין שעה שלמה, אין טעם להתאמן.\nPUSH AI בונה לך אימון קצר ויעיל שמתאים בדיוק לזמן שיש לך היום, לרמה שלך ולציוד שזמין לך, ומעדכן את זה כל שבוע.\n\n20 דקות ממוקדות שווים הרבה יותר משעה שלא קרתה.\n\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "image": "social/media/m2_notime/m2_notime.jpg"
+  },
+  {
+    "id": "m2_price",
+    "type": "post",
+    "epoch": 1780844400,
+    "caption": "מאמן אישי או PUSH AI? 🔥\n\nמאמן אישי זה מעולה, אבל זה גם יקר, תלוי בזמינות שלו, ולרוב נותן לכולם וריאציה על אותה תוכנית.\nPUSH AI בונה לך תוכנית אימון ותזונה מותאמת אישית, מעדכן אותה כל שבוע לפי ההתקדמות שלך, וזמין בכל רגע שבא לך להתאמן.\n\nאותה תחושת ליווי אישי, בלי המחיר ובלי לתאם שעות.\n\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "image": "social/media/m2_price/m2_price.jpg"
+  },
+  {
+    "id": "m2_poll",
+    "type": "story",
+    "epoch": 1780930800,
+    "caption": "איך אתה מתאמן השבוע? 🔥\nלפי תוכנית או מאלתר תוך כדי?\nרובנו מאלתרים, וזה בדיוק מה ששורף את הזמן בלי תוצאות.\nPUSH AI בונה לך תוכנית אימון ותזונה מותאמת אישית ומעדכן אותה כל שבוע.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "image": "social/media/m2_poll/m2_poll.jpg"
+  },
+  {
+    "id": "m3_nutrition",
+    "type": "carousel",
+    "epoch": 1781017200,
+    "caption": "זה לא רק אימון, זו גם תזונה 🔥\n\nרובם מתאמנים קשה ואז אוכלים בלי שום כיוון, וזה בדיוק מה שתוקע את ההתקדמות.\nהאמת הפשוטה: אימון בלי תזונה נשאר חצי עבודה, וקל מאוד לבטל בצלחת את מה שעבדת עליו בחדר כושר.\n\nPUSH AI בונה לך גם תוכנית תזונה מותאמת אישית, כמה לאכול ומה, בלי לנחש קלוריות ומאקרו. והכי חשוב: היא משתנה יחד עם האימון, כל שבוע לפי מה שעשית.\n\nתאמן ותאכל לפי תוכנית אחת, לא לפי ניחושים.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "images": [
+      "social/media/m3_nutrition/slide_1.jpg",
+      "social/media/m3_nutrition/slide_2.jpg",
+      "social/media/m3_nutrition/slide_3.jpg",
+      "social/media/m3_nutrition/slide_4.jpg",
+      "social/media/m3_nutrition/slide_5.jpg",
+      "social/media/m3_nutrition/slide_6.jpg",
+      "social/media/m3_nutrition/slide_7.jpg"
+    ]
+  },
+  {
+    "id": "m3_weekly",
+    "type": "carousel",
+    "epoch": 1781103600,
+    "caption": "התוכנית שמשתנה איתך כל שבוע 🔥\n\nהסיבה שרוב התוכניות מפסיקות לעבוד פשוטה: הן נשארות אותו דבר חודש שלם, הגוף מתרגל ומפסיק להתקדם.\n\nPUSH AI עובד אחרת. כל שבוע הוא קורא מה באמת עשית, מה הרמת, מה דילגת ואיך הרגשת, ובונה לך שבוע חדש שמתקדם בדיוק במידה הנכונה. ולא רק האימון זז, גם התזונה משתנה יחד איתו.\n\nככה אתה תמיד צעד אחד קדימה, בלי לתקוע ובלי לנחש מה הלאה.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "images": [
+      "social/media/m3_weekly/slide_1.jpg",
+      "social/media/m3_weekly/slide_2.jpg",
+      "social/media/m3_weekly/slide_3.jpg",
+      "social/media/m3_weekly/slide_4.jpg",
+      "social/media/m3_weekly/slide_5.jpg",
+      "social/media/m3_weekly/slide_6.jpg",
+      "social/media/m3_weekly/slide_7.jpg"
+    ]
+  },
+  {
+    "id": "m3_coach",
+    "type": "post",
+    "epoch": 1781190000,
+    "caption": "מאמן שזמין לך 24/7 🔥\n\nהשאלות הכי חשובות צצות דווקא בין האימונים: איך עושים נכון את התרגיל, אפשר להחליף משהו, מה כדאי לאכול אחרי.\nPUSH AI הוא מאמן שזמין לך בכל שעה. שואל אותו מה שבא לך והוא עונה לך לפי התוכנית האישית שלך, האימון והתזונה.\n\nבלי לחכות לשיעור הבא ובלי להישאר עם ספק.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "image": "social/media/m3_coach/m3_coach.jpg"
+  },
+  {
+    "id": "m3_behind",
+    "type": "story",
+    "epoch": 1781362800,
+    "caption": "ככה נראית תוכנית ש-PUSH AI בונה לך 🔥\nאימון מותאם לכל יום, תזונה שמתאימה לאימון, והכל לפי הרמה והזמן שלך.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "image": "social/media/m3_behind/m3_behind.jpg"
+  },
+  {
+    "id": "m5_5signs",
+    "type": "carousel",
+    "epoch": 1781449200,
+    "caption": "5 סימנים שאתה מתאמן בלי תוכנית 🔥\n\nתבדוק את עצמך, מספיק שאחד מהם מוכר לך:\n1. כל אימון מתחיל בלי מטרה ברורה, אתה מחליט תוך כדי\n2. חוזר על אותם תרגילים ולא בטוח אם זה עוד עוזר\n3. התזונה לגמרי באוויר, אוכל לפי תחושה ולא לפי יעד\n4. עובד קשה אבל לא רואה התקדמות אמיתית\n\nהפתרון הוא תוכנית אחת חכמה. PUSH AI בונה לך תוכנית אימון ותזונה מותאמת אישית, ומעדכן אותה כל שבוע לפי ההתקדמות שלך.\n\nתפסיק לנחש, תתחיל עם תוכנית.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "images": [
+      "social/media/m5_5signs/slide_1.jpg",
+      "social/media/m5_5signs/slide_2.jpg",
+      "social/media/m5_5signs/slide_3.jpg",
+      "social/media/m5_5signs/slide_4.jpg",
+      "social/media/m5_5signs/slide_5.jpg",
+      "social/media/m5_5signs/slide_6.jpg",
+      "social/media/m5_5signs/slide_7.jpg"
+    ]
+  },
+  {
+    "id": "m5_equipment",
+    "type": "carousel",
+    "epoch": 1781535600,
+    "caption": "מיתוסים על ציוד שמונעים ממך להתחיל 🔥\n\nהסיבה הכי נפוצה לדחות את ההתחלה היא הציוד, וברוב המקרים זה פשוט לא נכון:\nמיתוס: חייבים חדר כושר. אמת: אפשר גם בבית עם מה שיש לך בסלון.\nמיתוס: בלי משקולות אין טעם. אמת: משקל גוף עובד, בונים כוח גם בלי ברזל.\nמיתוס: צריך מלא מכשירים. אמת: צריך תוכנית נכונה, לא ציוד.\n\nPUSH AI בונה לך את התוכנית בדיוק לפי הציוד שיש לך, גם אם זה כמעט כלום, ומעדכן אותה כל שבוע. מה שיש לך מספיק כדי להתחיל.\n\nבלי תירוצים, תתחיל עם תוכנית.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "images": [
+      "social/media/m5_equipment/slide_1.jpg",
+      "social/media/m5_equipment/slide_2.jpg",
+      "social/media/m5_equipment/slide_3.jpg",
+      "social/media/m5_equipment/slide_5.jpg",
+      "social/media/m5_equipment/slide_6.jpg",
+      "social/media/m5_equipment/slide_7.jpg"
+    ]
+  },
+  {
+    "id": "m5_live",
+    "type": "post",
+    "epoch": 1781622000,
+    "caption": "אימון חי שמוביל אותך תרגיל אחרי תרגיל 🔥\n\nהרגע הכי מתסכל באימון הוא לעמוד באמצע ולא לדעת מה הלאה, כמה סטים, כמה חזרות, כמה לנוח.\nPUSH AI מוביל אותך חי לאורך כל האימון: כל תרגיל, כל סט וכל מנוחה ברורים, ואתה רק מתאמן.\n\nבלי לעצור לחשוב, בלי לאבד את הקצב.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "image": "social/media/m5_live/m5_live.jpg"
+  },
+  {
+    "id": "m5_share",
+    "type": "story",
+    "epoch": 1781708400,
+    "caption": "מכיר מישהו שמתאמן בלי תוכנית? 🔥\nשלח לו את זה. PUSH AI בונה תוכנית אימון ותזונה מותאמת אישית ומעדכן אותה כל שבוע.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "image": "social/media/m5_share/m5_share.jpg"
+  },
+  {
+    "id": "m7_consistency",
+    "type": "carousel",
+    "epoch": 1781794800,
+    "caption": "עקביות מנצחת מוטיבציה 🔥\n\nהאמת שאף אחד לא אוהב לשמוע: לא מי שרוצה הכי חזק מצליח, אלא מי שממשיך להופיע.\nמוטיבציה נגמרת מהר, ואז רובם עוצרים בדיוק כשהתחילו. מה שבאמת מזיז זה לחזור שוב, גם בימים בלי חשק.\n\nPUSH AI מוריד ממך את ההחלטה היומית: הוא מחליט בשבילך מה לעשות היום, שומר לך על הרצף ומתאים את התוכנית כל שבוע. אתה רק מופיע ומתאמן.\n\nככה עקביות הופכת מקושי להרגל.\nתתחיל את הרצף שלך.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "images": [
+      "social/media/m7_consistency/slide_1.jpg",
+      "social/media/m7_consistency/slide_2.jpg",
+      "social/media/m7_consistency/slide_3.jpg",
+      "social/media/m7_consistency/slide_4.jpg",
+      "social/media/m7_consistency/slide_5.jpg",
+      "social/media/m7_consistency/slide_6.jpg",
+      "social/media/m7_consistency/slide_7.jpg"
+    ]
+  },
+  {
+    "id": "m7_system",
+    "type": "carousel",
+    "epoch": 1781967600,
+    "caption": "אימון ותזונה, שיטה אחת 🔥\n\nרוב האנשים מנהלים את זה בנפרד: אפליקציה אחת לאימון, עוד אחת לאוכל, ושתיהן לא מדברות אחת עם השנייה. ואז שום דבר לא ממש מסתדר, כי האימון אומר דבר אחד והצלחת אומרת אחר.\n\nPUSH AI מחבר את שניהם לשיטה אחת: תוכנית אימון ותזונה מותאמות אישית שעובדות יחד, הכל במקום אחד. וכשהאימון זז, גם התזונה זזה, כל שבוע מחדש.\n\nזו לא עוד אפליקציה, זו שיטה שלמה שמותאמת בדיוק לך.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "images": [
+      "social/media/m7_system/slide_1.jpg",
+      "social/media/m7_system/slide_2.jpg",
+      "social/media/m7_system/slide_3.jpg",
+      "social/media/m7_system/slide_4.jpg",
+      "social/media/m7_system/slide_5.jpg",
+      "social/media/m7_system/slide_6.jpg",
+      "social/media/m7_system/slide_7.jpg"
+    ]
+  },
+  {
+    "id": "m7_week",
+    "type": "post",
+    "epoch": 1782054000,
+    "caption": "שבוע איתנו, וזו רק ההתחלה 🔥\n\nתודה לכל מי שהצטרף, שאל, התאמן ושיתף השבוע. אתם הופכים את זה לקהילה אמיתית של אנשים שמתאמנים עם כיוון, לא עם ניחוש.\n\nואם עוד לא התחלת, זה הרגע: PUSH AI בונה לך תוכנית אימון ותזונה מותאמת אישית, מעדכן אותה כל שבוע, וזמין לך בכל שאלה.\n\nבוא נמשיך ביחד.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "image": "social/media/m7_week/m7_week.jpg"
+  },
+  {
+    "id": "m7_light",
+    "type": "story",
+    "epoch": 1782140400,
+    "caption": "התוכנית שלך עדיין מחכה 🔥\nדקה אחת וזה מתחיל. PUSH AI בונה לך תוכנית אימון ותזונה מותאמת אישית ומעדכן אותה כל שבוע.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
+    "posted": false,
+    "image": "social/media/m7_light/m7_light.jpg"
   }
 ]
