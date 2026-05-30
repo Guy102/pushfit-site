@@ -305,8 +305,10 @@
     "type": "post",
     "epoch": 1780137000,
     "caption": "יום ראשון מתחיל משהו חדש. 🔥\n\nלא צריך לחכות לראשון לחודש או לראשון לשנה. PUSH AI כבר בנה לך את התוכנית — אתה רק צריך להתחיל.\n\nהשבוע הזה נראה אחרת.\n\n7 ימים חינם · קישור בביו",
-    "posted": false,
-    "image": "social/media/dp4/DP4.jpg"
+    "posted": true,
+    "image": "social/media/dp4/DP4.jpg",
+    "media_id": "18067658015392305",
+    "posted_at": "2026-05-30T10:30:12Z"
   },
   {
     "id": "DP6",
