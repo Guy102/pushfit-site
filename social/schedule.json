@@ -343,8 +343,10 @@
     "type": "story",
     "epoch": 1780498800,
     "caption": "שבוע חדש מתחיל, והתוכנית שלך כבר מחכה 🔥\nPUSH AI בנה לך תוכנית אימון ותזונה מותאמת אישית.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
-    "posted": false,
-    "image": "social/media/m1_countdown/m1_countdown.jpg"
+    "posted": true,
+    "image": "social/media/m1_countdown/m1_countdown.jpg",
+    "media_id": "18582877057059331",
+    "posted_at": "2026-06-03T15:03:11Z"
   },
   {
     "id": "m2_howpush",
