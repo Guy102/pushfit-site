@@ -353,7 +353,7 @@
     "type": "carousel",
     "epoch": 1780585200,
     "caption": "ככה PUSH AI בונה לך תוכנית ב-30 שניות 🔥\n\n1. אתה עונה על כמה שאלות קצרות: מטרה, כמה ימים, איזה ציוד יש לך ומה הרמה\n2. PUSH AI בונה לך תוכנית אימון ותזונה מלאה ומותאמת אישית\n3. הכל מכויל בדיוק אליך, לא תבנית כללית\n4. וכל שבוע התוכנית מתעדכנת מחדש לפי ההתקדמות שלך\n\nתוכנית שלמה, בלי כל המאמץ של לבנות אותה לבד.\n\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
-    "posted": false,
+    "posted": true,
     "images": [
       "social/media/m2_howpush/slide_1.jpg",
       "social/media/m2_howpush/slide_2.jpg",
@@ -361,7 +361,9 @@
       "social/media/m2_howpush/slide_4.jpg",
       "social/media/m2_howpush/slide_5.jpg",
       "social/media/m2_howpush/slide_6.jpg"
-    ]
+    ],
+    "media_id": "18320013391275006",
+    "posted_at": "2026-06-04T15:01:12Z"
   },
   {
     "id": "m2_notime",
