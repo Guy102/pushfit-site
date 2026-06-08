@@ -390,8 +390,10 @@
     "type": "story",
     "epoch": 1780930800,
     "caption": "איך אתה מתאמן השבוע? 🔥\nלפי תוכנית או מאלתר תוך כדי?\nרובנו מאלתרים, וזה בדיוק מה ששורף את הזמן בלי תוצאות.\nPUSH AI בונה לך תוכנית אימון ותזונה מותאמת אישית ומעדכן אותה כל שבוע.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
-    "posted": false,
-    "image": "social/media/m2_poll/m2_poll.jpg"
+    "posted": true,
+    "image": "social/media/m2_poll/m2_poll.jpg",
+    "media_id": "18110204887913551",
+    "posted_at": "2026-06-08T15:00:12Z"
   },
   {
     "id": "m3_nutrition",
