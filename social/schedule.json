@@ -400,7 +400,7 @@
     "type": "carousel",
     "epoch": 1781017200,
     "caption": "זה לא רק אימון, זו גם תזונה 🔥\n\nרובם מתאמנים קשה ואז אוכלים בלי שום כיוון, וזה בדיוק מה שתוקע את ההתקדמות.\nהאמת הפשוטה: אימון בלי תזונה נשאר חצי עבודה, וקל מאוד לבטל בצלחת את מה שעבדת עליו בחדר כושר.\n\nPUSH AI בונה לך גם תוכנית תזונה מותאמת אישית, כמה לאכול ומה, בלי לנחש קלוריות ומאקרו. והכי חשוב: היא משתנה יחד עם האימון, כל שבוע לפי מה שעשית.\n\nתאמן ותאכל לפי תוכנית אחת, לא לפי ניחושים.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
-    "posted": false,
+    "posted": true,
     "images": [
       "social/media/m3_nutrition/slide_1.jpg",
       "social/media/m3_nutrition/slide_2.jpg",
@@ -409,7 +409,9 @@
       "social/media/m3_nutrition/slide_5.jpg",
       "social/media/m3_nutrition/slide_6.jpg",
       "social/media/m3_nutrition/slide_7.jpg"
-    ]
+    ],
+    "media_id": "17943809379207374",
+    "posted_at": "2026-06-09T15:40:18Z"
   },
   {
     "id": "m3_weekly",
