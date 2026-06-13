@@ -446,8 +446,10 @@
     "type": "story",
     "epoch": 1781362800,
     "caption": "ככה נראית תוכנית ש-PUSH AI בונה לך 🔥\nאימון מותאם לכל יום, תזונה שמתאימה לאימון, והכל לפי הרמה והזמן שלך.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
-    "posted": false,
-    "image": "social/media/m3_behind/m3_behind.jpg"
+    "posted": true,
+    "image": "social/media/m3_behind/m3_behind.jpg",
+    "media_id": "18118837891840661",
+    "posted_at": "2026-06-13T15:00:10Z"
   },
   {
     "id": "m5_5signs",
