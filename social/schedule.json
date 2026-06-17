@@ -501,8 +501,10 @@
     "type": "story",
     "epoch": 1781708400,
     "caption": "מכיר מישהו שמתאמן בלי תוכנית? 🔥\nשלח לו את זה. PUSH AI בונה תוכנית אימון ותזונה מותאמת אישית ומעדכן אותה כל שבוע.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
-    "posted": false,
-    "image": "social/media/m5_share/m5_share.jpg"
+    "posted": true,
+    "image": "social/media/m5_share/m5_share.jpg",
+    "media_id": "18598912774051291",
+    "posted_at": "2026-06-17T15:00:17Z"
   },
   {
     "id": "m7_consistency",
