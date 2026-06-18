@@ -511,7 +511,7 @@
     "type": "carousel",
     "epoch": 1781794800,
     "caption": "עקביות מנצחת מוטיבציה 🔥\n\nהאמת שאף אחד לא אוהב לשמוע: לא מי שרוצה הכי חזק מצליח, אלא מי שממשיך להופיע.\nמוטיבציה נגמרת מהר, ואז רובם עוצרים בדיוק כשהתחילו. מה שבאמת מזיז זה לחזור שוב, גם בימים בלי חשק.\n\nPUSH AI מוריד ממך את ההחלטה היומית: הוא מחליט בשבילך מה לעשות היום, שומר לך על הרצף ומתאים את התוכנית כל שבוע. אתה רק מופיע ומתאמן.\n\nככה עקביות הופכת מקושי להרגל.\nתתחיל את הרצף שלך.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
-    "posted": false,
+    "posted": true,
     "images": [
       "social/media/m7_consistency/slide_1.jpg",
       "social/media/m7_consistency/slide_2.jpg",
@@ -520,7 +520,9 @@
       "social/media/m7_consistency/slide_5.jpg",
       "social/media/m7_consistency/slide_6.jpg",
       "social/media/m7_consistency/slide_7.jpg"
-    ]
+    ],
+    "media_id": "18069371447397956",
+    "posted_at": "2026-06-18T16:00:29Z"
   },
   {
     "id": "m7_system",
