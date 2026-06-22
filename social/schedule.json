@@ -557,7 +557,9 @@
     "type": "story",
     "epoch": 1782140400,
     "caption": "התוכנית שלך עדיין מחכה 🔥\nדקה אחת וזה מתחיל. PUSH AI בונה לך תוכנית אימון ותזונה מותאמת אישית ומעדכן אותה כל שבוע.\n7 ימי ניסיון חינם, בטל מתי שתרצה.\nקישור בביו",
-    "posted": false,
-    "image": "social/media/m7_light/m7_light.jpg"
+    "posted": true,
+    "image": "social/media/m7_light/m7_light.jpg",
+    "media_id": "18187150819386247",
+    "posted_at": "2026-06-22T16:03:18Z"
   }
 ]
