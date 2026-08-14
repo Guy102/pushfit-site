@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — Slate Trading Journal</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0A0B0D; color: #C9CFD8; line-height: 1.7; padding: 40px 20px; }
+        .container { max-width: 720px; margin: 0 auto; }
+        .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 28px; }
+        .ring { width: 24px; height: 24px; border-radius: 50%; border: 3px solid #7C5CFF; border-right-color: #242830; }
+        .brand span { color: #F2F4F7; font-weight: 600; letter-spacing: -0.2px; }
+        h1 { font-size: 28px; color: #F2F4F7; margin-bottom: 8px; letter-spacing: -0.4px; }
+        .lede { color: #98A1B0; font-size: 16px; margin-bottom: 32px; }
+        h2 { font-size: 19px; color: #F2F4F7; margin: 30px 0 10px; letter-spacing: -0.2px; }
+        p, li { font-size: 15px; color: #98A1B0; margin-bottom: 12px; }
+        strong { color: #F2F4F7; font-weight: 600; }
+        ul { padding-left: 24px; }
+        li { margin-bottom: 8px; }
+        a { color: #7C5CFF; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .contact { background: rgba(124,92,255,0.10); border: 1px solid rgba(124,92,255,0.30); border-radius: 12px; padding: 22px 24px; margin: 28px 0; }
+        .contact p { color: #C9CFD8; margin-bottom: 6px; }
+        .contact a { font-size: 18px; font-weight: 600; }
+        .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #1B1E24; font-size: 13px; color: #5E6672; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="brand"><div class="ring"></div><span>Slate</span></div>
+
+    <h1>Support</h1>
+    <p class="lede">Slate is a trading journal that keeps your rules in view — and warns funded traders before they cross a prop-firm limit.</p>
+
+    <div class="contact">
+        <p>Questions, bugs, or a broker export we do not read yet:</p>
+        <a href="mailto:support@pushfit.app">support@pushfit.app</a>
+        <p style="margin-top:8px;font-size:14px;color:#5E6672;">We answer within one business day.</p>
+    </div>
+
+    <h2>Why does Slate not connect to my broker?</h2>
+    <p>Deliberately. Broker connections break, and when they break they produce wrong numbers rather than no numbers — which is worse in a journal. Slate is manual-first: logging a trade takes about ten seconds, and you can import a CSV from any broker or spreadsheet for free.</p>
+
+    <h2>What happens to my data if I stop paying?</h2>
+    <p>Nothing is deleted. Your journal stays readable, and export stays free. Only Pro features stop.</p>
+
+    <h2>How do I import my history?</h2>
+    <p>Export a CSV from your broker or spreadsheet, then open Slate and go to <strong>More → Import CSV</strong>. Slate detects the columns automatically for most brokers and shows you a preview before anything is added. If a row looks wrong you can fix the mapping, and you can undo an entire import for 24 hours.</p>
+    <p>Import is free, at every tier, permanently.</p>
+
+    <h2>How is prop-firm headroom calculated?</h2>
+    <p>From the trades you record in Slate, against the rules you entered for that account. It is an independent second opinion, not a feed from your firm. If you do not log a trade, Slate cannot see it. Always confirm against your firm's own dashboard before it matters.</p>
+
+    <h2>Are the prop-firm templates official?</h2>
+    <p>No. They are a starting point that we keep as current as we can, and each one shows the date it was last checked. Firms change rules without notice, so confirm yours and edit any field you need. Slate is not affiliated with any prop firm.</p>
+
+    <h2>I lost data / the app says it recovered a backup</h2>
+    <p>Slate keeps automatic local backups and checks the database every time it starts. If it ever finds a problem it restores the most recent healthy backup and tells you which one. The damaged file is kept, not deleted. If something still looks wrong, email us before making changes — we can usually recover it.</p>
+
+    <h2>How do I cancel a subscription?</h2>
+    <p>On your iPhone: <strong>Settings → your name → Subscriptions → Slate → Cancel Subscription</strong>. It takes about fifteen seconds. You keep access until the end of the period you already paid for.</p>
+
+    <h2>Does Slate give trading advice?</h2>
+    <p>No, and it never will. Slate records what you did and shows you the patterns. It does not tell you what to trade.</p>
+
+    <div class="footer">
+        Slate — trading journal for iOS ·
+        <a href="privacy.html">Privacy Policy</a> ·
+        <a href="terms.html">Terms of Use</a>
+    </div>
+</div>
+</body>
+</html>
