@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slate — a trading journal that knows the rules you trade under</title>
+    <meta name="description" content="Log a trade in ten seconds. Know how much room you have left before you breach. Write your plan and have it checked. Everything stays on your device.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0A0B0D; color: #98A1B0; line-height: 1.7;
+            padding: 56px 20px; -webkit-font-smoothing: antialiased;
+        }
+        .container { max-width: 760px; margin: 0 auto; }
+
+        .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 56px; }
+        .ring { width: 26px; height: 26px; border-radius: 50%; border: 3px solid #7C5CFF; border-right-color: #242830; }
+        .brand span { color: #F2F4F7; font-weight: 600; letter-spacing: -0.2px; font-size: 17px; }
+
+        h1 {
+            font-size: clamp(30px, 6vw, 46px); color: #F2F4F7; letter-spacing: -1px;
+            line-height: 1.15; margin-bottom: 20px; font-weight: 700;
+        }
+        .lede { font-size: clamp(16px, 2.4vw, 19px); color: #C9CFD8; margin-bottom: 14px; }
+        .sub { font-size: 16px; margin-bottom: 44px; }
+
+        h2 {
+            font-size: 21px; color: #F2F4F7; margin: 52px 0 10px;
+            letter-spacing: -0.3px; font-weight: 600;
+        }
+        p { font-size: 16px; margin-bottom: 14px; }
+        strong { color: #F2F4F7; font-weight: 600; }
+
+        .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); margin: 28px 0 8px; }
+        .card { background: #131519; border: 1px solid #1F232A; border-radius: 14px; padding: 20px; }
+        .card h3 { font-size: 16px; color: #F2F4F7; margin-bottom: 6px; font-weight: 600; letter-spacing: -0.2px; }
+        .card p { font-size: 14.5px; margin: 0; }
+
+        .callout {
+            background: rgba(124,92,255,0.09); border: 1px solid rgba(124,92,255,0.28);
+            border-radius: 14px; padding: 20px 22px; margin: 32px 0;
+        }
+        .callout p { color: #C9CFD8; margin-bottom: 0; }
+
+        .promise { list-style: none; margin: 20px 0 8px; }
+        .promise li {
+            font-size: 16px; margin-bottom: 12px; padding-left: 26px; position: relative; color: #C9CFD8;
+        }
+        .promise li::before {
+            content: ""; position: absolute; left: 0; top: 10px;
+            width: 9px; height: 9px; border-radius: 50%;
+            border: 2px solid #7C5CFF;
+        }
+
+        .status {
+            margin-top: 56px; padding: 22px; border: 1px dashed #2A2F38;
+            border-radius: 14px; text-align: center;
+        }
+        .status p { margin: 0; font-size: 15px; }
+
+        .footer {
+            margin-top: 56px; padding-top: 26px; border-top: 1px solid #1B1E24;
+            font-size: 14px; color: #5E6672;
+        }
+        .footer a { color: #7C5CFF; text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+        .footer nav { margin-bottom: 14px; display: flex; gap: 20px; flex-wrap: wrap; }
+        .disclaimer { font-size: 13px; color: #4A515C; margin-top: 16px; line-height: 1.6; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="brand">
+        <div class="ring"></div>
+        <span>Slate</span>
+    </div>
+
+    <h1>A trading journal that knows the rules you trade under.</h1>
+    <p class="lede">Log a trade in about ten seconds. See what actually works.</p>
+    <p class="sub">And if you trade a funded account, know exactly how much room you have left before you cross a limit that ends it.</p>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Headroom, live</h3>
+            <p>How much you can still lose today, and how close you are to your maximum drawdown. Warnings before you cross a limit, not after.</p>
+        </div>
+        <div class="card">
+            <h3>Ten seconds to log</h3>
+            <p>One required field: the amount. Everything else is optional, forever. No field has ever blocked a save.</p>
+        </div>
+        <div class="card">
+            <h3>Your plan, checked</h3>
+            <p>Write your strategy in your own words. Slate reads it back as rules you confirm — and nothing becomes a rule on its own.</p>
+        </div>
+        <div class="card">
+            <h3>A review that shows its working</h3>
+            <p>Every line carries the number behind it and the sample size it rests on. Under five trades it says so, instead of inventing a conclusion.</p>
+        </div>
+    </div>
+
+    <h2>Four promises you can check</h2>
+    <ul class="promise">
+        <li><strong>You will not lose a trade.</strong> Saved locally, immediately. Automatic backups, and an integrity check every time the app opens.</li>
+        <li><strong>Ten seconds to log.</strong> There are no required fields beyond the amount, and there never will be.</li>
+        <li><strong>Export is always free.</strong> On the free tier. After a subscription ends. It is your data.</li>
+        <li><strong>No ads, at any tier.</strong> And the price is shown before you pay, with a reminder before the trial converts.</li>
+    </ul>
+
+    <div class="callout">
+        <p><strong>There is no account and no server.</strong> Nothing to sign up for, nothing to be breached. Your trades are stored on your device, and the App Store privacy label reads <em>Data Not Collected</em> because that is literally true.</p>
+    </div>
+
+    <h2>What Slate does not do</h2>
+    <p>No investment advice. No signals. No “buy” or “sell”. Slate cannot place a trade and is not connected to any brokerage that could.</p>
+    <p>No leaderboard, no public P&amp;L, no social feed.</p>
+    <p>No AI that guesses. Every figure is arithmetic, and every claim shows the number and the sample size it came from.</p>
+
+    <div class="status">
+        <p>Slate is in development. <a href="support.html">Get in touch</a> if you want to hear when it ships.</p>
+    </div>
+
+    <div class="footer">
+        <nav>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Use</a>
+            <a href="support.html">Support</a>
+        </nav>
+        <p>© 2026 Guy Ohayon</p>
+        <p class="disclaimer">
+            Slate is a record-keeping and analysis tool. It does not provide investment advice or trading signals, and cannot execute trades. Every figure is calculated from what you enter or import — verify it against your broker or funding firm before making any decision. Trading involves risk of loss.
+            <br><br>
+            Rule templates are a starting point only and are not synchronised with any firm. Firms change their rules; confirming yours is your responsibility. Slate is not affiliated with, endorsed by, or connected to any proprietary trading firm.
+        </p>
+    </div>
+
+</div>
+</body>
+</html>
